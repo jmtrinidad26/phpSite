@@ -1,0 +1,272 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        .foot{
+            margin:4rem;
+            margin-bottom:5rem;
+            margin-top:5rem;
+            font-family:Poppins,sans-serif;
+            background-color:transparent;
+        }
+        h4{
+            font-weight: bolder;
+            color:#212529;
+        }
+        a{
+            color:#212529;
+            text-decoration: none;
+        }
+        .cards{
+            display:flex;
+            flex-direction: row;
+            margin-top:1rem;
+            min-width:min-content;
+        }
+        .card{
+            margin-left:2rem;
+            border:none;
+            background-color: transparent;
+            transition:all ease 0.5s;
+            display: none; /* Hide all cards by default */
+        }
+        .card-icon{
+            width:70px;
+            height:70px;
+        }
+        .card-icon .icon{
+            cursor: pointer;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            background-color: transparent;
+            position:absolute;
+            bottom:65%;
+            right:65%;
+            padding:10px;
+            border: 3px solid #d2b72a;
+            border-radius: 10px;
+            width: 70px;
+            max-width: 500px;
+            height: 70px;
+        }
+        .card-info{
+            cursor: pointer;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            padding:1rem;
+            background-color: transparent;
+            border-radius: 10px;
+            width:255px;
+            height: 220px;
+            border:3px solid #d2b72a;
+        }
+        .card-button{
+            margin-top:2rem;
+        }
+        .card-button .butt{
+            border:3px solid;
+            padding: 0.3rem 0.5rem ;
+            text-decoration: none;
+            font-size: 15px;
+            border-radius: 15px;
+            border-color: white;
+            background-color: #ffffda;
+            color: white;
+        }
+        .card:hover{
+            transition:all ease 0.5s;
+            scale:110%;
+        }
+        .card-title{
+            padding-top:3rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        h4{
+            color:white ;
+        }
+        .card-title{
+            color:white ;
+        }
+        .card-info{
+            border-color: white ;
+        }
+        .icon{
+            border-color: white ;
+            background-color: #fbd624 ;
+        }
+        .butt{
+            background-color:#fbd624 ;
+            
+            border-color: white ;
+            color: white ;
+        }
+    </style>
+</head>
+<body>
+    <div class="foot">
+        <h4>Learn more: </h4>
+        <div class="cards">
+            <!-- SAMPLE PROGRAMS -->
+            <div class="card">
+                <div class="card-icon"> 
+                    <a href="index.php?page=sampleProg">
+                            <img class="icon" src="assets/sampProg.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=sampleProg">
+                        <div class="card-title">Sample Codes</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=sampleProg">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- DOCUMENTATION -->
+            <div class="card">
+                <div class="card-icon">
+                    <a href="index.php?page=documentation">
+                            <img class="icon" src="assets/docu.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=documentation">
+                        <div class="card-title">Documentation</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=documentation">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- CONCLUSIOn -->
+            <div class="card">
+                <div class="card-icon">
+                    <a href="index.php?page=conclusion">
+                            <img class="icon" src="assets/Conclusion.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=conclusion">
+                        <div class="card-title">Conclusion</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=conclusion">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- REFERENCES -->
+            <div class="card">
+                <div class="card-icon">
+                    <a href="index.php?page=reference">
+                            <img class="icon" src="assets/res.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=reference">
+                        <div class="card-title">References</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=reference">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- PRACTICE -->
+            <div class="card">
+                <div class="card-icon">
+                    <a href="index.php?page=test">
+                            <img class="icon" src="assets/res.png" alt="Programs Icon">
+                        <img class="icon" src="assets/gear.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=test">
+                        <div class="card-title">Practice Coding</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=test">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- DESCRIPTION -->
+            <div class="card">
+                <div class="card-icon">
+                    <a href="index.php?page=description">
+                        <img class="icon" src="assets/About.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=description">
+                        <div class="card-title">About</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=description">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- CREATORS -->
+            <div class="card">
+                <div class="card-icon">
+                    <a href="index.php?page=creators">
+                        <img class="icon" src="assets/person.png" alt="Programs Icon">
+                    </a>
+                </div>
+                <div class="card-info">
+                    <a href="index.php?page=reference">
+                        <div class="card-title">Creators</div>
+                        <div class="card-button">
+                            <a class="butt" href="index.php?page=creator">Go now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    const cards = document.querySelectorAll('.card');
+
+    const currentPage = window.location.href;
+
+    function getRandomCards(n) {
+        const validCards = [];
+        
+        // filter out cards that are not related to the page
+        cards.forEach((card) => {
+            const cardLink = card.querySelector('a').href;
+            if (cardLink !== currentPage) {
+                validCards.push(card);
+            }
+        });
+
+        // generates random cards per reload of page, making cards seem like suggestions
+        const selectedCards = [];
+        while (selectedCards.length < n && validCards.length > 0) {
+            const randomIndex = Math.floor(Math.random() * validCards.length);
+            const selectedCard = validCards.splice(randomIndex, 1)[0]; 
+            selectedCards.push(selectedCard);
+        }
+        
+        return selectedCards;
+    }
+
+    // showing of cards fromo none to block
+    function showRandomCards() {
+        cards.forEach(card => card.style.display = 'none');
+
+        const randomCards = getRandomCards(4);
+
+        randomCards.forEach(card => {
+            card.style.display = 'block';
+        });
+    }
+
+    //runninf of function
+    showRandomCards();
+</script>
+
+</body>
+</html>
