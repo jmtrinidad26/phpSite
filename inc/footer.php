@@ -115,7 +115,7 @@
             <div class="card">
                 <div class="card-icon"> 
                     <a href="index.php?page=sampleProg">
-                            <img class="icon" src="assets/sampProg.png" alt="Programs Icon">
+                            <img class="icon" src="assets/other/sampProg.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">
@@ -131,7 +131,7 @@
             <div class="card">
                 <div class="card-icon">
                     <a href="index.php?page=documentation">
-                            <img class="icon" src="assets/docu.png" alt="Programs Icon">
+                            <img class="icon" src="assets/other/docu.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">
@@ -147,7 +147,7 @@
             <div class="card">
                 <div class="card-icon">
                     <a href="index.php?page=conclusion">
-                            <img class="icon" src="assets/Conclusion.png" alt="Programs Icon">
+                            <img class="icon" src="assets/other/Conclusion.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">
@@ -163,7 +163,7 @@
             <div class="card">
                 <div class="card-icon">
                     <a href="index.php?page=reference">
-                            <img class="icon" src="assets/res.png" alt="Programs Icon">
+                            <img class="icon" src="assets/other/res.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">
@@ -179,8 +179,7 @@
             <div class="card">
                 <div class="card-icon">
                     <a href="index.php?page=test">
-                            <img class="icon" src="assets/res.png" alt="Programs Icon">
-                        <img class="icon" src="assets/gear.png" alt="Programs Icon">
+                        <img class="icon" src="assets/other/gear.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">
@@ -196,7 +195,7 @@
             <div class="card">
                 <div class="card-icon">
                     <a href="index.php?page=description">
-                        <img class="icon" src="assets/About.png" alt="Programs Icon">
+                        <img class="icon" src="assets/other/About.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">
@@ -212,7 +211,7 @@
             <div class="card">
                 <div class="card-icon">
                     <a href="index.php?page=creators">
-                        <img class="icon" src="assets/person.png" alt="Programs Icon">
+                        <img class="icon" src="assets/other/person.png" alt="Programs Icon">
                     </a>
                 </div>
                 <div class="card-info">

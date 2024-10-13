@@ -25,7 +25,6 @@
         }
         
         .nav-link{
-            
             transition: all ease 500ms;
             color: #ffffff;
         }
@@ -44,6 +43,9 @@
         .dropdown-item{
             color:#ebd255;
             font-weight:900;
+        }
+        .dropdown-item:active{
+            background-color: transparent;
         }
         .dropdown-item:hover{
             color:#ebd255;
@@ -82,7 +84,6 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="index.php?page=creator">CREATORS</a></li>
                             <li><a class="dropdown-item" href="index.php?page=reference">REFERENCES</a></li>
-
                         </ul>
                     </li>
                 </ul>

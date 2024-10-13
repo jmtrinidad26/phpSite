@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Updock&display=swap" rel="stylesheet">
     <style>
+        
+
+        
         /* SWIPE */
         .swiper {
             position:absolute;
@@ -30,6 +33,8 @@
             transition: transform 0.8s ease;
         }
         .swiper-slide{
+            
+            background-color: #f6f2e6;
             transition: opacity 0.4s ease;
         }
         .swiper-button-prev,.swiper-button-next{
@@ -42,21 +47,29 @@
             font-style: normal;
         }
         /* MAIN */
+        body{
+            
+            background-color: #f6f2e6;
+        }
         .profile{
+            
+            background-color: #f6f2e6;
             margin-left: 5rem;
             margin-top: 0.5rem;
             margin-bottom: 0.5rem;
             border-radius:100%;
             width:30rem;
             height:30rem;
-            
             box-shadow: 0px 0px 9px rgba(0, 0, 0);
         }
         .creator{
+            
+            background-color: #f6f2e6;
             display:flex;
             grid-template-columns: 50% 50%;
             column-gap:5rem;
             margin:1rem;
+
         }
         .creatorText{
             margin-right: 5rem;

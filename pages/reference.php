@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: #f6f2e6;
+        }
         .ref-container{
             display:flex;
             flex-direction: column;

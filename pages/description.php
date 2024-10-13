@@ -12,6 +12,7 @@
             color:  #ffffff;
             
         }
+        /* NAV ADJUSTMENTS */
         .navbar{
             padding-top:1rem;
             background-color: #f6f2e6 !important;
@@ -26,8 +27,8 @@
             text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3) !important;
             color: #bb9e01;
         }
-        .abt{
-        }
+
+        /* DESCRIPTION */
         p{
             text-align: justify;
             

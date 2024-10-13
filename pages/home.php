@@ -170,7 +170,7 @@
             <div class="home-text">
                 <h4 class = "txt">JavaScript Examples</h4>
                 <div class = "sampProgDiv">
-                    <img class = "sampProgImg"src="assets/home-image.png" alt="programmingImage" class="sample">
+                    <img class = "sampProgImg"src="assets/other/home-image.png" alt="programmingImage" class="sample">
                     <div>
                         <a class="refBut button-home nav-link active" href="index.php?page=sampleProg">LEARN MORE</a>
                     </div>
