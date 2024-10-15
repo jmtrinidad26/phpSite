@@ -21,7 +21,7 @@
             width:auto;
             height:15rem;
             background-image: url("assets/docu_pics/pic_6.jpg");
-            background-position: 0px -450px;
+            background-position: 0px -460px;
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;

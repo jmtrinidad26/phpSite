@@ -13,19 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Updock&display=swap" rel="stylesheet">
     <style>
         
-
         
         /* SWIPE */
         .swiper {
+            display:flex;
+            justify-content:center;
+            align-items:center;
             position:absolute;
             left:-4rem;
-
-            overflow: hidden;
-            width: 80.2rem;
-            height: 37.3rem;
-            margin:6rem;
-            margin-top:0;
-            margin-bottom:0;
+            margin: 0 auto;
+            margin-left:6.5rem;
+            width: 95%;
+            height: 85%;
             background-color:white;
             border-radius:30px;
         }
@@ -67,9 +66,11 @@
             background-color: #f6f2e6;
             display:flex;
             grid-template-columns: 50% 50%;
+            justify-content:center; 
             column-gap:5rem;
             margin:1rem;
-
+            margin-top:4rem;
+            
         }
         .creatorText{
             margin-right: 5rem;
@@ -217,31 +218,31 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-  autoplay: {
-            delay:3000, // Delay between transitions (in milliseconds)
-            disableOnInteraction: false, // Continue autoplay after user interaction
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
         },
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  effect: 'slide', 
-  keyboard: {
-    enabled: true, 
-    onlyInViewport: false, 
-  },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+        autoplay: {
+                    delay:3000, // Delay between transitions (in milliseconds)
+                    disableOnInteraction: false, // Continue autoplay after user interaction
+                },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        effect: 'slide', 
+        keyboard: {
+            enabled: true, 
+            onlyInViewport: false, 
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
 });
 </script>
 </html>

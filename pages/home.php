@@ -14,6 +14,7 @@
         .home-content{
             display:grid;
             grid-template-columns: 50% 50%;
+            column-gap:1rem;
             justify-content: center;
             align-items: center;
         }
@@ -25,14 +26,14 @@
             text-align: center;
         }
         .contentB{
-            height:21.5rem;
-            width: 30rem;
+            margin-left:5rem;
+            margin-top:5rem;
+            width:30rem;
             display:flex;
             flex-direction: column;
             justify-content: center;
             background-color:#ebd255;
-            margin-top: 5rem;
-            margin-left: 2rem;
+            
             padding:1rem;
             padding-top:0rem;
             padding-bottom:0rem;

@@ -15,10 +15,11 @@ html, body {
     margin-bottom:4rem;
 }
 .editor {
-    height: 400px;
+    margin-right: 5rem;
+    height: 100%;
     width: 100%;
-    max-height:400px;
-    max-width:1110px;
+    max-height:100%;
+    max-width:100%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -85,23 +86,24 @@ button:hover{
 
 .editor__console {
     width: 100%;
-    height: 300px;
+    height: 80%;
     min-height: 200px; 
+    max-height: 100%; 
     border: 1px solid var(--editor-border);
     border-radius: 30px;
     overflow: auto;
-    background-color: #f6f2e6;
+    background-color: white;
     color:green;
 }
 .editor__btns{
-    margin-left: 48.75rem;
+    margin-left: 60rem;
     margin-bottom:1rem;
     margin-top:1rem;
 }
 .editor__code {
     text-align: left;
     min-height: 100px; 
-    height: 300px;
+    height: 80%;
     width: 100%;
     border: 1px solid var(--editor-border);
     border-radius: 30px;

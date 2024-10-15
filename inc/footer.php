@@ -28,6 +28,7 @@
             flex-direction: row;
             margin-top:1rem;
             min-width:min-content;
+            gap:1rem;
         }
         .card{
             margin-left:2rem;
@@ -37,8 +38,8 @@
             display: none; /* Hide all cards by default */
         }
         .card-icon{
-            width:70px;
-            height:70px;
+            width:90px;
+            height:90px;
         }
         .card-icon .icon{
             cursor: pointer;
@@ -46,13 +47,13 @@
             background-color: transparent;
             position:absolute;
             bottom:65%;
-            right:65%;
+            right: 64%;
             padding:10px;
             border: 3px solid #d2b72a;
             border-radius: 10px;
-            width: 70px;
-            max-width: 500px;
-            height: 70px;
+            width: 80px;
+            max-width: 100%;
+            height: 80px;
         }
         .card-info{
             cursor: pointer;
@@ -60,8 +61,8 @@
             padding:1rem;
             background-color: transparent;
             border-radius: 10px;
-            width:255px;
-            height: 220px;
+            width:300px;
+            height: 250px;
             border:3px solid #d2b72a;
         }
         .card-button{
@@ -71,7 +72,7 @@
             border:3px solid;
             padding: 0.3rem 0.5rem ;
             text-decoration: none;
-            font-size: 15px;
+            font-size: 18px;
             border-radius: 15px;
             border-color: white;
             background-color: #ffffda;
@@ -83,10 +84,12 @@
         }
         .card-title{
             padding-top:3rem;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-weight: bold;
         }
         h4{
+            
+            font-size: 1.6rem;
             color:white ;
         }
         .card-title{
