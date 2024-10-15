@@ -32,10 +32,11 @@
         p{
             text-align: justify;
             
-            line-height: 2;
+            line-height: 3;
         }
         .dec-content{
             margin:4rem;
+            margin-left:0;
             margin-top:3rem;
             margin-bottom:9rem;
         }
@@ -79,7 +80,7 @@
             border:25px solid white;
             border-radius:30px;
             margin-left:4rem;
-            margin-top:7rem;
+            margin-top:15rem;
            
         }
         .abt{
@@ -120,9 +121,11 @@
             color:#524EA5;
             font-weight:bold;
             font-style: italic;
+            margin-left:4.5rem ;
         }
         .para{
-            
+            margin-left:4.5rem;
+            width:95%;
             text-indent: 30px;
             max-width:100%;
         }
@@ -133,6 +136,7 @@
         }
         .big-img{
             margin-bottom:2rem;
+            margin-left:5rem;
         }
         .butt{
             background-color:#d3b62a !important;

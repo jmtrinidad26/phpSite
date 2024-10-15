@@ -139,7 +139,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="creator">
-                            <img class = "profile"src="assets/creator-image/lope.png" alt="mico">
+                            <img class = "profile"src="assets/creator-image/Lope.png" alt="mico">
                                 <div class="creatorText">
                                 <h2 class = "rTitle">DOCUMENTATION</h2>
                                 <h2 class = "name">Jester G. Lope</h2>
@@ -157,8 +157,7 @@
                                 <h2 class = "rTitle">DOCUMENTATION</h2>
                                 <h2 class = "name">Keane Banua</h2>
                                 <p class = "course">Computer Science</p>
-                                <div class="quote"><blockquote>Whenever you’re making a hard choice, flip a coin. And when it’s in the air, you’ll know which side you’re hoping for.</blockquote> </div>
-                                    
+                                <div class="quote"><blockquote>Whenever you’re making a hard choice, flip a coin. And when it’s in the air, you’ll know which side you’re hoping for.</blockquote> </div>  
                             </div>
 
                         </div>
