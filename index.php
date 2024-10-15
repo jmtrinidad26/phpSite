@@ -4,7 +4,7 @@
 <div class=" mt-4">
     <?php
     // default
-    //test deploy
+    //test deploy 2
     $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
     // add file based on page parameter
