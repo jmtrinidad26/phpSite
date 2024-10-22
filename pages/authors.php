@@ -9,22 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Updock&display=swap" rel="stylesheet">
-<<<<<<< HEAD
 
     <style>
-=======
-    <style>
-        
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
         
         /* SWIPE */
         .swiper {
-            display:flex;
-            justify-content:center;
-            align-items:center;
             position:absolute;
             left:-4rem;
-<<<<<<< HEAD
             overflow: hidden;
             width: 80.2rem;
             height: 37.3rem;
@@ -32,13 +23,6 @@
             margin-top:0;
             margin-bottom:0;
             background-color: #141417;
-=======
-            margin: 0 auto;
-            margin-left:6.5rem;
-            width: 95%;
-            height: 85%;
-            background-color:white;
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
             border-radius:30px;
         }
         .slider-wrapper{
@@ -83,11 +67,9 @@
             background-color: #141417;
             display:flex;
             grid-template-columns: 50% 50%;
-            justify-content:center; 
             column-gap:5rem;
             margin:1rem;
-            margin-top:4rem;
-            
+
         }
         .creatorText{
             margin-right: 5rem;
@@ -155,7 +137,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="creator">
-                            <img class = "profile"src="assets/creator-image/Lope.png" alt="mico">
+                            <img class = "profile"src="assets/creator-image/lope.png" alt="mico">
                                 <div class="creatorText">
                                 <h2 class = "rTitle">DOCUMENTATION</h2>
                                 <h2 class = "name">Jester G. Lope</h2>
@@ -173,7 +155,8 @@
                                 <h2 class = "rTitle">DOCUMENTATION</h2>
                                 <h2 class = "name">Keane Banua</h2>
                                 <p class = "course">Computer Science</p>
-                                <div class="quote"><blockquote>Whenever you’re making a hard choice, flip a coin. And when it’s in the air, you’ll know which side you’re hoping for.</blockquote> </div>  
+                                <div class="quote"><blockquote>Whenever you’re making a hard choice, flip a coin. And when it’s in the air, you’ll know which side you’re hoping for.</blockquote> </div>
+                                    
                             </div>
 
                         </div>
@@ -233,31 +216,31 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoplay: {
+            delay:3000, // Delay between transitions (in milliseconds)
+            disableOnInteraction: false, // Continue autoplay after user interaction
         },
-        autoplay: {
-                    delay:3000, // Delay between transitions (in milliseconds)
-                    disableOnInteraction: false, // Continue autoplay after user interaction
-                },
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        effect: 'slide', 
-        keyboard: {
-            enabled: true, 
-            onlyInViewport: false, 
-        },
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  effect: 'slide', 
+  keyboard: {
+    enabled: true, 
+    onlyInViewport: false, 
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
 </script>
 </html>

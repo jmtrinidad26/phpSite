@@ -14,7 +14,6 @@
         .home-content{
             display:grid;
             grid-template-columns: 50% 50%;
-            column-gap:1rem;
             justify-content: center;
             align-items: center;
         }
@@ -26,21 +25,15 @@
             text-align: center;
         }
         .contentB{
-            margin-left:5rem;
-            margin-top:5rem;
-            width:30rem;
+            height:21.5rem;
+            width: 30rem;
             display:flex;
             flex-direction: column;
             justify-content: center;
-<<<<<<< HEAD
             background-color:#141417;
             border:2px solid #2d2c2c;
             margin-top: 5rem;
             margin-left: 2rem;
-=======
-            background-color:#ebd255;
-            
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
             padding:1rem;
             padding-top:0rem;
             padding-bottom:0rem;
