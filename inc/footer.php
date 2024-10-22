@@ -10,14 +10,16 @@
     <style>
         .foot{
             margin:4rem;
-            margin-bottom:5rem;
+            margin-bottom:5rem !important;
             margin-top:5rem;
             font-family:Poppins,sans-serif;
             background-color:transparent;
+
         }
         h4{
             font-weight: bolder;
-            color:#212529;
+            
+            color:#fffefe;
         }
         a{
             color:#212529;
@@ -43,12 +45,12 @@
         .card-icon .icon{
             cursor: pointer;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-            background-color: transparent;
+            background-color: #141417;
             position:absolute;
             bottom:65%;
             right:65%;
             padding:10px;
-            border: 3px solid #d2b72a;
+            border: 3px solid #fffefe;
             border-radius: 10px;
             width: 70px;
             max-width: 500px;
@@ -62,7 +64,7 @@
             border-radius: 10px;
             width:255px;
             height: 220px;
-            border:3px solid #d2b72a;
+            border:3px solid #2d2c2c;
         }
         .card-button{
             margin-top:2rem;
@@ -72,10 +74,12 @@
             padding: 0.3rem 0.5rem ;
             text-decoration: none;
             font-size: 15px;
+            font-weight: 700;
             border-radius: 15px;
-            border-color: white;
-            background-color: #ffffda;
-            color: white;
+            border-color: #fffefe;
+            background-color: #141417;
+            box-shadow: none;
+            color:#fffefe;
         }
         .card:hover{
             transition:all ease 0.5s;
@@ -85,25 +89,17 @@
             padding-top:3rem;
             font-size: 1.5rem;
             font-weight: bold;
+            color:#fffefe !important;
         }
         h4{
-            color:white ;
-        }
-        .card-title{
-            color:white ;
+            color:#fffefe;
         }
         .card-info{
             border-color: white ;
         }
         .icon{
-            border-color: white ;
+            border-color: #fffefe ;
             background-color: #fbd624 ;
-        }
-        .butt{
-            background-color:#fbd624 ;
-            
-            border-color: white ;
-            color: white ;
         }
     </style>
 </head>

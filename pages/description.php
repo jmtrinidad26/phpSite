@@ -8,26 +8,11 @@
 
         body{
             font-family: "Poppins", sans-serif;
-            background-color: #d3b62a;
-            color:  #ffffff;
+            background-color: #141417;
+            color:  #fffefe;
             
         }
-        /* NAV ADJUSTMENTS */
-        .navbar{
-            padding-top:1rem;
-            background-color: #f6f2e6 !important;
-            font-family:'Roboto','sans-serif';
-            font-weight: bolder;
-        }
-
-        .nav-link{
-            
-            color: #bb9e01;
-        }.nav-link:hover{
-            text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3) !important;
-            color: #bb9e01;
-        }
-
+       
         /* DESCRIPTION */
         p{
             text-align: justify;
@@ -49,7 +34,7 @@
         }
 
         .video-reference a {
-            color: #524EA5;
+            color: #b07641;
             text-decoration: none;
             font-weight: bold;
         }
@@ -62,30 +47,35 @@
             width: 100%;
             height: 100%;
             border: none;
-            background-color: white;
+            background-color:  #ebd255;
             border-radius:30px;
         }
         
         .theater-container {
-            width: 100%;  
-            max-width: 500px;
-            min-width: 500px;
-            background-color: white;
+            width: 80%;
+            height: 20%;
+            max-width:500px;
+            background-color: #ebd255;
             height: 60vh;
-            max-height: 400px;
+            max-height: 350px;
             display: flex;
             justify-content: center;
             align-items: center;
-            border:25px solid white;
+            border:25px solid  #ebd255;
             border-radius:30px;
             margin-left:4rem;
             margin-top:2rem;
            
         }
-        .abt{
-            max-width:1200px;
-            display:grid;
-            grid-template-columns: 55% 45%;
+        .abt {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .big-img{
+            
+            max-width: 1200px;
         }
         .abt-para{
             text-indent: 30px;
@@ -111,7 +101,8 @@
         }
         
         .redirect{
-            color:#524EA5;
+            
+            color: #b07641;
             font-weight:bold;
             font-style: italic;
         }
@@ -119,16 +110,6 @@
             
             text-indent: 30px;
             max-width:75.3rem;
-        }
-        /* FOOTER ADJUSTMENTS */
-        .icon{
-            background-color: #d3b62a !important;
-            border-color:white !important;
-        }
-     
-        .butt{
-            background-color:#d3b62a !important;
-            
         }
     </style>
 </head>
@@ -148,8 +129,8 @@
                     
                 </div>
                 <p class="video-reference">
-                    Smith, J. [TechExplainer]. (2023, April 12). 
-                    <em>How to build a website in 5 minutes</em> [Video]. 
+                    Smith, J. [TechExplainer]. (2023, April 12).
+                    <em>How to build a website in 5 minutes</em> [Video].
                     YouTube. <a href="https://www.youtube.com/watch?v=CBWnBi-awSA" target="_blank">https://www.youtube.com/watch?v=CBWnBi-awSA</a>.
                 </p>
             </div>
@@ -177,5 +158,5 @@
     </div>
 </body>
 
-<?php include './inc/footer.php'; ?>
+    <?php include './inc/footer.php'; ?>
 </html>

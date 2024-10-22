@@ -8,25 +8,21 @@
     <!-- image slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Updock&display=swap" rel="stylesheet">
-    <style>
-        
 
+    <style>
         
         /* SWIPE */
         .swiper {
             position:absolute;
             left:-4rem;
-
             overflow: hidden;
             width: 80.2rem;
             height: 37.3rem;
             margin:6rem;
             margin-top:0;
             margin-bottom:0;
-            background-color:white;
+            background-color: #141417;
             border-radius:30px;
         }
         .slider-wrapper{
@@ -34,11 +30,15 @@
         }
         .swiper-slide{
             
-            background-color: #f6f2e6;
+            background-color: #141417;
+            border-color: transparent;
             transition: opacity 0.4s ease;
         }
         .swiper-button-prev,.swiper-button-next{
-            color: black;
+            color: #fffefe;
+        }
+        .swiper-scrollbar-drag{
+            background-color: #fffefe;
         }
         /* FONT */
         .updock-regular {
@@ -48,8 +48,8 @@
         }
         /* MAIN */
         body{
-            
-            background-color: #f6f2e6;
+            color:#fffefe;
+            background-color: #141417;
         }
         .profile{
             
@@ -64,7 +64,7 @@
         }
         .creator{
             
-            background-color: #f6f2e6;
+            background-color: #141417;
             display:flex;
             grid-template-columns: 50% 50%;
             column-gap:5rem;
@@ -97,7 +97,7 @@
         blockquote {
             font-size: 28px;
             line-height: 1.6;
-            color: #333;
+            color: #fffefe;
             position: relative;
             margin: 0;
         }
@@ -105,7 +105,7 @@
         blockquote:before {
             content: open-quote;
             font-size: 50px;
-            color: black;
+            color: #fffefe;
             position: absolute;
             left: -10px;
             top: -20px;
@@ -123,7 +123,6 @@
 </head>
 <body>
         <div class="swiper">
-            
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="creator">
@@ -170,7 +169,7 @@
                                 <h2 class = "name">Julia Bacli</h2>
                                 <p class = "course">Computer Science</p>
                                 <div class="quote"><blockquote>Have #HABAmazing Possibilities with Sunsilk!</blockquote> </div>
-                                    `
+                                    
                             </div>
 
                         </div>

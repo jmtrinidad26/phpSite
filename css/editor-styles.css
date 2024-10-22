@@ -7,10 +7,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f6f2e6 !important;
+    background-color: #141417 !important;
+    margin-bottom:4rem;
 }
 html, body {
-    height: 90vh;
+    height: 160vh;
     width: 100%;
     margin-bottom:4rem;
 }
@@ -22,13 +23,14 @@ html, body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color:#ebd255;
+    background-color:#141417;
     padding:2rem;
     padding-top:1.5rem;
     padding-bottom:0rem;
     border:transparent;
     border-radius: 30px;
     color:#f6f2e6;
+    border: 2px solid #2d2c2c;
 }
 
 .editor__wrapper{
@@ -73,8 +75,9 @@ button:hover{
 .editor__btn {
     border: 0;
     padding: .5em;
-    background-color: #ebd255;
-    color: #f6f2e6;
+    background-color: #141417;
+    color: #fffefe;
+    border:3px solid #2d2c2c;
     border-radius: 30px;
     width: 150px;
     cursor: pointer;
@@ -82,7 +85,9 @@ button:hover{
     font-size: 0.8rem ;
     font-weight: bolder;
 }
-
+.editor__btn:hover{
+    scale:(110%);
+}
 .editor__console {
     width: 100%;
     height: 300px;
@@ -90,8 +95,8 @@ button:hover{
     border: 1px solid var(--editor-border);
     border-radius: 30px;
     overflow: auto;
-    background-color: #f6f2e6;
-    color:green;
+    background-color: #282a36;
+    color:#fffefe;
 }
 .editor__btns{
     margin-left: 48.75rem;
@@ -111,15 +116,19 @@ button:hover{
     font-size: medium;
     font-weight:900;
     letter-spacing: 2.5px;
-    
+    color: #fffefe;
     margin-top: 0.7rem;
 }
 h1{
     margin-top:2.5rem;
     margin-bottom:2rem;
     font-weight:900;
-    color: #ebd255 !important;
+    color: #fffefe !important;
 }
 span.arrow{
     font-size: 1.2rem;
+}
+/* FOOTER */
+.foot{
+    margin-left:none !important;
 }

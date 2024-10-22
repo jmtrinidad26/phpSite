@@ -31,11 +31,8 @@ let editorLib = {
         })
     },
     init(){
-        //CONFIG Ace
-
-
         //Theme
-        codeEditor.setTheme("ace/theme/dreamweaver");
+        codeEditor.setTheme("ace/theme/dracula");
 
         //Prog lang
         codeEditor.session.setMode("ace/mode/javascript");

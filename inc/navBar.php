@@ -9,13 +9,14 @@
         
         .navbar{
             padding-top:1rem;
-            background-color: #ebd255 !important;
+            background-color: #141417 !important;
             font-family:'Roboto','sans-serif';
             font-weight: bolder;
+            border-bottom: 2px solid #2d2c2c;
         }
         .logo{
-            width:132px;
-            height:50px;
+            width:112px;
+            height:32px;
             margin:0;
             display:flex;
             justify-content: center;
@@ -26,29 +27,38 @@
         
         .nav-link{
             transition: all ease 500ms;
-            color: #ffffff;
+            color: #fffefe;
+            font-size: 13px;
         }
-        
+        .nav-link:active{
+            color:#fffefe !important;
+        }
         .nav-link:hover{
             transition: all ease 500ms;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-            color: #ffffff;
+            color: #b07641;
         }
         .dropdown-toggle {
         color: #ffffff;
         }
         .dropdown-menu{
-            border-color:#ebd255;
+            background-color: #141417;
+            border-color:#2d2c2c;
         }
         .dropdown-item{
-            color:#ebd255;
+            font-size: 13px;
+            color:#fffefe;
             font-weight:900;
+            
+            transition: all ease 500ms;
         }
         .dropdown-item:active{
             background-color: transparent;
         }
         .dropdown-item:hover{
-            color:#ebd255;
+            transition: all ease 500ms;
+            background-color:#2d2c2c;
+            color:#fffefe;
         }
     </style>
 </head>

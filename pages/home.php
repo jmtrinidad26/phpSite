@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         body{
-            background-color:#f6f2e6;
+            background-color:#141417;
             height:90vh;
             margin:0;
             
@@ -30,7 +30,8 @@
             display:flex;
             flex-direction: column;
             justify-content: center;
-            background-color:#ebd255;
+            background-color:#141417;
+            border:2px solid #2d2c2c;
             margin-top: 5rem;
             margin-left: 2rem;
             padding:1rem;
@@ -41,13 +42,13 @@
 
         }
         h1{
-            color:#ebd255;
+            color:#fffefe;
             margin-top:3rem;
             font-weight:700;
             font-size:5rem;
         }
         .title{
-            color:#ebd255;
+            color:#fffefe;
             margin-bottom: 2rem;
         }
         .home-buttons{
@@ -64,11 +65,11 @@
             align-items: center;
             margin: 0.5rem;
             height: 42px;
-            border: 2px solid transparent;
+            border: 2px solid #ebd255;
             text-decoration: none;
             font-weight:900;
-            background-color:#ebd255;
-            color: #f6f2e6;
+            background-color:#141417;
+            color: #ebd255;
             transition: all ease 0.5s;
             border-radius:20px;
             width:10rem;
@@ -77,11 +78,10 @@
         }
         .button-home:hover{
             color:#ebd255;
-            background-color:#f6f2e6 ;
+            background-color:#141417 ;
             border-color: #ebd255;
             transition: all ease 0.5s;
-            scale: 103%;
-            border:5px solid ;
+            scale: 105%;
             text-shadow: none !important;
             transition:all ease 500ms;
             
@@ -104,7 +104,7 @@
             max-width:100%;
         }
         .home-text .txt{
-            color:#f6f2e6;
+            color:#fffefe;
             font-size: 1.3rem;
             font-weight: bolder;
             align-self:flex-start;
@@ -112,25 +112,23 @@
             margin-top:1rem;
         }
         .refBut{
+            border: 2px solid #ebd255;
             margin-top:1.3rem;
             margin-bottom:0rem;
             width:200px;
             max-width:100%;
             align-self: flex-start;
-            background-color:#f6f2b6;
+            background-color:#141417;
             color:#ebd255;
             font-weight:900;
-            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
         }
         .refBut:hover{
-            color:#f6f2e6;
-            background-color:#ebd255;
-            border-color: #f6f2e6;
+            color:#ebd255;
+            background-color:#141417 ;
+            border-color: #ebd255;
             transition: all ease 0.5s;
-            scale: 103%;
-            border:5px solid ;
-            
-            text-shadow: none;
+            scale: 105%;
+            text-shadow: none !important;
             transition:all ease 500ms;
             
         }

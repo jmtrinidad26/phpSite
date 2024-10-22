@@ -8,7 +8,7 @@
     <style>
         body{
             
-            background-color:#f6f2e6;
+            background-color:#fffefe;
         }
         .conclusion{
             margin:4rem;
@@ -38,18 +38,17 @@
             
         }
         .icon{
-            display:none;
+            background-color: #2d2c2c !important;
         }
         .card-info{
             
-            background-color: #f6f2e6 !important;
-            border-color: black !important;
+            background-color: #2d2c2c !important;
         }
         .butt{
             
-            color:black !important;
-            border-color: black !important;
-            background-color: #f6f2e6 !important;
+            color:#fffefe !important;
+            border-color: #fffefe !important;
+            background-color: transparent !important;
         }
     </style>
 </head>
@@ -67,5 +66,6 @@
         </div>
     </div>
     
+    <?php include './inc/footer.php'; ?>
 </body>
 </html>

@@ -9,47 +9,56 @@
     <title>Document</title>
 
     <style>
+        body{
+            
+            background-color:#141417;
+            color:#fffefe ;
+        }
         .samp{
             display: flex;
             flex-direction: column;
             margin-left:15rem;
             margin-right:4rem;
         }
-        /* NAVBAR */
-        .nav-link{
-            
-            color: #bb9e01 !important;
-        }
-        
-        .navbar{
-            
-            border-bottom:1px solid #ebd255;;
-            background-color: white !important;
-            
-        }
         /* VERT NAV */
-        h3{
+        h3 {
             font-size: 18px;
-            font-weight:bolder;
-            color:#bb9e01;
-            margin-bottom:1rem;
+            font-weight: bolder;
+            color: #fffefe;
+            margin-bottom: 1rem;
         }
+
         .vertical-nav {
             position: fixed;
             top: 0;
             left: 0;
             bottom: 0;
             width: 200px;
-            background-color: white !important;
+            background-color: #141417 !important;
             overflow-y: auto;
             padding: 20px;
+        }
+        .vertical-nav::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .vertical-nav::-webkit-scrollbar-track {
+            background-color: #141417;
+        }
+
+        .vertical-nav::-webkit-scrollbar-thumb {
+            background-color: #2d2c2c;
+            border-radius: 5px;
+        }
+        .vertical-nav {
+            scrollbar-width: thin;
+            scrollbar-color: #2d2c2c #141417; 
         }
 
         .vertical-nav a {
             margin-bottom: 1rem;
-            color: black;
             padding: 10px 15px;
-            
+            color: #fffefe;
             padding-left: 2rem;
             display: block;
             text-decoration: none;
@@ -57,40 +66,17 @@
         }
 
         .vertical-nav a:hover {
-        background-color: #e7d675;
+            background-color: #2d2c2c;
         }
 
         .vertical-nav a.active {
-        background-color: #e7d675;
+            background-color: #2d2c2c;
         }
-        .container .mt-4{
-            margin:none !important;
+
+        .container .mt-4 {
+            margin: none !important;
         }
-        /* ADJUSTMENTS OF FOOTER */
-        h4{
-            margin-bottom:4rem !important;
-        }
-        .foot{
-            margin:0 !important;
-            margin-top:3rem !important;
-            margin-left:2rem !important;
-            margin-bottom:5rem !important;
-            max-width:500px !important;
-        }
-        .card-icon {
-            position:absolute !important;
-            bottom:75%;
-            right:55%;
-            max-width:5px !important;
-            max-height:5px !important;
-        }
-        .card-info{
-            max-width:200px;
-            max-height:200px;
-        }
-        .card-title{
-            font-size:large !important;
-        }
+
         
         /* Sample Progs */
         .cont{
@@ -113,7 +99,7 @@
             font-weight: bolder;
         }
         .codeTitle{
-            color:black;
+            color:#fffefe;
             margin-bottom: 2rem;
         }
         .codeContentA{
@@ -134,7 +120,7 @@
             font-style: italic;
             font-weight: 400;
             text-align: left;
-            color:green;
+            color:#e7d675;
         }
         .redirect{
             color:blue;

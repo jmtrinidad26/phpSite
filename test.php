@@ -82,6 +82,9 @@
 
     </div>
     
+    <!-- FOOTER -->
+    <?php include './inc/footer.php'; ?>
+    
    <!-- REQ Ace Libraries -->
     <script src = "test/src-min/ace.js"></script>
     <script src = "test/src-min/mode-javascript.js"></script>

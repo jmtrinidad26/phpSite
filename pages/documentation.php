@@ -7,6 +7,7 @@
     <style>
         body{
             font-family: 'Poppins',sans-serif;
+            background-color: #141417;
         }
         .docu-content{
             margin-left:6rem;
@@ -15,7 +16,7 @@
         }
         .head{
             position:absolute;
-            top:4.5rem;
+            top:3.5rem;
             right:0;
             left:0;
             width:auto;
@@ -59,8 +60,8 @@
             
             transition: all ease 500ms;
         }
-        p{
-            
+        p{  
+            color:#fffefe;
             margin-top:7px;
         }
         img{
@@ -71,6 +72,10 @@
         .image:hover{
             transition: all ease 500ms;
             transform: scale(1.3);
+        }
+        /* FOOTER */
+        .foot{
+            margin-top:15rem !important;
         }
     </style>
 </head>
@@ -147,5 +152,8 @@
             </div>
         </div>
     </div>
+
+    <!-- FOOTER -->
+    <?php include './inc/footer.php'; ?>
 </body>
 </html>
