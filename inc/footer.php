@@ -30,6 +30,7 @@
             flex-direction: row;
             margin-top:1rem;
             min-width:min-content;
+            gap:1rem;
         }
         .card{
             margin-left:2rem;
@@ -39,8 +40,8 @@
             display: none; /* Hide all cards by default */
         }
         .card-icon{
-            width:70px;
-            height:70px;
+            width:90px;
+            height:90px;
         }
         .card-icon .icon{
             cursor: pointer;
@@ -48,13 +49,13 @@
             background-color: #141417;
             position:absolute;
             bottom:65%;
-            right:65%;
+            right: 64%;
             padding:10px;
             border: 3px solid #fffefe;
             border-radius: 10px;
-            width: 70px;
-            max-width: 500px;
-            height: 70px;
+            width: 80px;
+            max-width: 100%;
+            height: 80px;
         }
         .card-info{
             cursor: pointer;
@@ -62,9 +63,15 @@
             padding:1rem;
             background-color: transparent;
             border-radius: 10px;
+<<<<<<< HEAD
             width:255px;
             height: 220px;
             border:3px solid #2d2c2c;
+=======
+            width:300px;
+            height: 250px;
+            border:3px solid #d2b72a;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
         }
         .card-button{
             margin-top:2rem;
@@ -73,8 +80,12 @@
             border:3px solid;
             padding: 0.3rem 0.5rem ;
             text-decoration: none;
+<<<<<<< HEAD
             font-size: 15px;
             font-weight: 700;
+=======
+            font-size: 18px;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
             border-radius: 15px;
             border-color: #fffefe;
             background-color: #141417;
@@ -87,12 +98,21 @@
         }
         .card-title{
             padding-top:3rem;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-weight: bold;
             color:#fffefe !important;
         }
         h4{
+<<<<<<< HEAD
             color:#fffefe;
+=======
+            
+            font-size: 1.6rem;
+            color:white ;
+        }
+        .card-title{
+            color:white ;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
         }
         .card-info{
             border-color: white ;

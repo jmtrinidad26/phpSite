@@ -17,15 +17,22 @@
         .samp{
             display: flex;
             flex-direction: column;
-            margin-left:15rem;
+            margin-left:20rem;
             margin-right:4rem;
         }
         /* VERT NAV */
         h3 {
             font-size: 18px;
+<<<<<<< HEAD
             font-weight: bolder;
             color: #fffefe;
             margin-bottom: 1rem;
+=======
+            font-weight:bolder;
+            color:#bb9e01;
+            margin-bottom:1rem;
+            cursor:pointer;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
         }
 
         .vertical-nav {
@@ -33,10 +40,17 @@
             top: 0;
             left: 0;
             bottom: 0;
+<<<<<<< HEAD
             width: 200px;
             background-color: #141417 !important;
+=======
+            width: 15%;
+            background-color: white !important;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
             overflow-y: auto;
             padding: 20px;
+            padding-bottom:40px;
+            border-right:1px solid #e7d675;
         }
         .vertical-nav::-webkit-scrollbar {
             width: 8px;
@@ -66,11 +80,19 @@
         }
 
         .vertical-nav a:hover {
+<<<<<<< HEAD
             background-color: #2d2c2c;
         }
 
         .vertical-nav a.active {
             background-color: #2d2c2c;
+=======
+            background-color: #e7d675;
+        }
+
+        .vertical-nav a.active {
+            background-color: #e7d675;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
         }
 
         .container .mt-4 {
@@ -83,7 +105,7 @@
             margin-top: 6rem;
         }
         .intro-content{
-            margin-bottom: 10rem;
+            margin-bottom: 15rem;
             text-align:left;
         }
         .pImg{
@@ -139,7 +161,7 @@
         <div class = "vNav">
             <div class="vertical-nav">
                 <br /><br /><br />
-                <h3>JavaScript Snips</h3>
+                <h3 onclick = "scrollToTop()">JavaScript Snips</h3>
                 <?php
                     $index = 0;
                     foreach ($snippets as $index => $snippet) {
@@ -202,5 +224,8 @@
             this.classList.add('active');
         });
     });
+    function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
 </script>
 </html>

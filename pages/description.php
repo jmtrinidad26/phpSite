@@ -17,12 +17,13 @@
         p{
             text-align: justify;
             
-            line-height: 2;
+            line-height: 3;
         }
         .dec-content{
             margin:4rem;
-            margin-top:5rem;
-            margin-bottom:12rem;
+            margin-left:0;
+            margin-top:3rem;
+            margin-bottom:9rem;
         }
         .video-reference {
             margin-left: 4rem;
@@ -52,10 +53,17 @@
         }
         
         .theater-container {
+<<<<<<< HEAD
             width: 80%;
             height: 20%;
             max-width:500px;
             background-color: #ebd255;
+=======
+            width: 100%;  
+            max-width: 75%;
+            min-width: 500px;
+            background-color: white;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
             height: 60vh;
             max-height: 350px;
             display: flex;
@@ -64,9 +72,10 @@
             border:25px solid  #ebd255;
             border-radius:30px;
             margin-left:4rem;
-            margin-top:2rem;
+            margin-top:15rem;
            
         }
+<<<<<<< HEAD
         .abt {
             max-width: 1200px;
             display: grid;
@@ -76,16 +85,22 @@
         .big-img{
             
             max-width: 1200px;
+=======
+        .abt{
+            max-width:100%;
+            display:grid;
+            grid-template-columns: 50% 50%;
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
         }
         .abt-para{
             text-indent: 30px;
-            align-self:flex-start;
+            align-self:flex-end;
             text-align: justify;
+            margin-bottom:0;
         }
         h1{
-            max-width:45rem;
-            margin-left:30rem;
-            margin-right:1rem;
+            max-width:100%;
+            margin-bottom:3rem;
             text-align: right;
             font-size: 2.7rem;
             font-weight: 800;
@@ -99,24 +114,48 @@
         .abt-img div {
             text-align: center;
         }
-        
+        .abt-content{
+            margin-bottom:0;
+        }
+        p{
+            
+            margin-bottom:0;
+        }
         .redirect{
             
             color: #b07641;
             font-weight:bold;
             font-style: italic;
+            margin-left:4.5rem ;
         }
         .para{
-            
+            margin-left:4.5rem;
+            width:95%;
             text-indent: 30px;
-            max-width:75.3rem;
+            max-width:100%;
         }
+<<<<<<< HEAD
+=======
+        /* FOOTER ADJUSTMENTS */
+        .icon{
+            background-color: #d3b62a !important;
+            border-color:white !important;
+        }
+        .big-img{
+            margin-bottom:2rem;
+            margin-left:5rem;
+        }
+        .butt{
+            background-color:#d3b62a !important;
+            
+        }
+>>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
     </style>
 </head>
 <body>
     <div class="dec-content">
         
-    <h1>Comprehensive Introduction to JavaScript Programming </h1>
+    <
         <div class="abt">
             <div class="big-img">
                 <div class="theater-container">
@@ -135,7 +174,7 @@
                 </p>
             </div>
             <div class="abt-content">
-                
+                <h1>Comprehensive Introduction to JavaScript Programming </h1>
                 <div class="abt-text">
                     <br />
                     <div class = "abt-para">
@@ -147,8 +186,11 @@
         </div>
         <div class="para">
             <p>In addition to its widespread use in web development, JavaScript has found its place in a variety of other domains, showcasing its flexibility and adaptability. It is now a key language for mobile app development, with frameworks like React Native enabling the creation of cross-platform mobile applications for iOS and Android using JavaScript (Facebook, 2015). Moreover, JavaScript is used in desktop application development with tools like Electron, allowing developers to build desktop apps that run on multiple operating systems (GitHub, 2019). Even in fields like game development, JavaScript is utilized for creating browser-based games and interactive experiences (Lazarov, 2021). Its growing ecosystem of libraries, frameworks, and tools has allowed it to transcend its original web-based roots, making it a go-to language for developers across a broad spectrum of projects. </p>
+             <br>
             <p>JavaScript's role in the development world extends well beyond its use as a programming language; it has significantly shaped the methodologies and workflows employed by developers (Johnson, 2022). Frameworks such as React, Angular, and Vue.js encourage a component-based architecture, where UIs are broken down into reusable, independent components. This approach promotes cleaner, modular code, making it easier to maintain and scale over time (Haverbeke, 2018). By dividing complex interfaces into smaller, manageable parts, development becomes more efficient, and the codebase is more structured. </p>
+            <br>
             <p>In addition to these architectural improvements, JavaScript has driven innovations in development tools. Build tools like Webpack, Babel, and Gulp have simplified tasks such as bundling code, transpiling newer JavaScript features, and optimizing assets for production environments (Michaels, 2020). Tools like npm and Yarn make it easier for developers to manage and update third-party libraries and frameworks automatically. This saves time, reduces repetitive tasks, and speeds up the development process (Lee, 2019). </p>
+            <br>
             <p>As a result, JavaScript has transformed from a simple client-side scripting language into a fundamental part of a robust development ecosystem. It enables the development of complex, large-scale applications that are not only responsive but also easy to maintain and adapt as business requirements change (W3Techs, 2023). With its extensive ecosystem of powerful tools and best practices, JavaScript has changed the way software is created and maintained, solidifying its importance in today's development landscape. </p>
             <br><br>
         </div>
