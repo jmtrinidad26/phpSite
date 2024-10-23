@@ -31,6 +31,7 @@ html, body {
     border-radius: 30px;
     color:#f6f2e6;
     border: 2px solid #2d2c2c;
+    margin: 0 auto;
 }
 
 .editor__wrapper{
