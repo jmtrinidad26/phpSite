@@ -137,7 +137,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="creator">
-                            <img class = "profile"src="assets/creator-image/lope.png" alt="mico">
+                            <img class = "profile"src="assets/creator-image/Lope.png" alt="mico">
                                 <div class="creatorText">
                                 <h2 class = "rTitle">DOCUMENTATION</h2>
                                 <h2 class = "name">Jester G. Lope</h2>

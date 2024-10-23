@@ -8,13 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
     <style>
-        .foot{
-            margin:4rem;
-            margin-bottom:5rem !important;
-            margin-top:5rem;
-            font-family:Poppins,sans-serif;
-            background-color:transparent;
-
+        .foot {
+            margin: 4rem auto 5rem;
+            font-family: Poppins, sans-serif;
+            background-color: transparent;
+            text-align: center;
+            max-width: 1200px; 
         }
         h4{
             font-weight: bolder;
@@ -63,15 +62,10 @@
             padding:1rem;
             background-color: transparent;
             border-radius: 10px;
-<<<<<<< HEAD
             width:255px;
             height: 220px;
             border:3px solid #2d2c2c;
-=======
-            width:300px;
-            height: 250px;
-            border:3px solid #d2b72a;
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
+
         }
         .card-button{
             margin-top:2rem;
@@ -80,12 +74,9 @@
             border:3px solid;
             padding: 0.3rem 0.5rem ;
             text-decoration: none;
-<<<<<<< HEAD
             font-size: 15px;
             font-weight: 700;
-=======
-            font-size: 18px;
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
+
             border-radius: 15px;
             border-color: #fffefe;
             background-color: #141417;
@@ -103,18 +94,13 @@
             color:#fffefe !important;
         }
         h4{
-<<<<<<< HEAD
-            color:#fffefe;
-=======
-            
+            color:#fffefe;        
             font-size: 1.6rem;
             color:white ;
-        }
-        .card-title{
-            color:white ;
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
+            text-align: left;
         }
         .card-info{
+            text-align: left;
             border-color: white ;
         }
         .icon{

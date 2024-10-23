@@ -47,12 +47,13 @@
         }
 
         .vertical-nav::-webkit-scrollbar-thumb {
-            background-color: #2d2c2c;
-            border-radius: 5px;
+            background-color: #2d2c2c; 
+            border-radius: 5px; 
         }
+
         .vertical-nav {
-            scrollbar-width: thin;
-            scrollbar-color: #2d2c2c #141417; 
+            scrollbar-width: thin; 
+            scrollbar-color: #2d2c2c #141417;
         }
 
         .vertical-nav a {

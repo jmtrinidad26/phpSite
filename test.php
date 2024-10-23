@@ -20,32 +20,7 @@
             color: #bb9e01;
             font-weight:1000;
         }
-        /* ADJUSTMENTS OF FOOTER */
-        h4{
-            margin-bottom:6rem !important;
-            
-        }
-        .foot{
-            margin:0 !important;
-            margin-left:4rem !important;
-            margin-top:5rem !important;
-            max-width:500px !important;
-        }
-        .card-icon {
-            position:absolute !important;
-            bottom:75%;
-            right:55%;
-            max-width:5px !important;
-            max-height:5px !important;
-        }
-        .card-info{
-            max-width:240px;
-            max-height:300px;
-        }
-        .card-title{
-            color:#ebd255 !important;
-            font-size:large !important;
-        }
+       
     </style>
 
 </head>

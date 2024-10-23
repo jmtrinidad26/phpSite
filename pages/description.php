@@ -6,32 +6,32 @@
     <title>Document</title>
     <style>
 
-        body{
+        body {
             font-family: "Poppins", sans-serif;
             background-color: #141417;
-            color:  #fffefe;
-            
+            color: #fffefe;
+            margin: 0;
+            padding: 0;
         }
-       
+
         /* DESCRIPTION */
-        p{
+        p {
             text-align: justify;
-            
-            line-height: 3;
+            line-height: 2;
+            margin-bottom: 1rem;
         }
-        .dec-content{
-            margin:4rem;
-            margin-left:0;
-            margin-top:3rem;
-            margin-bottom:9rem;
+
+        .dec-content {
+            max-width: 1200px;
+            margin: 3rem auto 9rem auto;
         }
+
         .video-reference {
-            margin-left: 4rem;
-            width:31rem;
+            margin-top: 10px;
             font-size: 0.8rem;
             color: white;
-            margin-top: 10px;
             font-style: italic;
+            text-align: center;
         }
 
         .video-reference a {
@@ -44,26 +44,23 @@
             text-decoration: underline;
         }
 
+        .big-img {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
         iframe {
             width: 100%;
             height: 100%;
             border: none;
-            background-color:  #ebd255;
-            border-radius:30px;
+            background-color: #ebd255;
+            border-radius: 30px;
         }
-        
         .theater-container {
-<<<<<<< HEAD
             width: 80%;
             height: 20%;
             max-width:500px;
             background-color: #ebd255;
-=======
-            width: 100%;  
-            max-width: 75%;
-            min-width: 500px;
-            background-color: white;
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
             height: 60vh;
             max-height: 350px;
             display: flex;
@@ -75,87 +72,55 @@
             margin-top:15rem;
            
         }
-<<<<<<< HEAD
         .abt {
-            max-width: 1200px;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
-        }
-        .big-img{
-            
             max-width: 1200px;
-=======
-        .abt{
-            max-width:100%;
-            display:grid;
-            grid-template-columns: 50% 50%;
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
+            height:auto;
+            max-height:auto;
+            margin: 0 auto;
         }
-        .abt-para{
+
+        .abt-para {
+            max-width: 100%;
             text-indent: 30px;
-            align-self:flex-end;
+            align-self: flex-end;
             text-align: justify;
-            margin-bottom:0;
         }
-        h1{
-            max-width:100%;
-            margin-bottom:3rem;
+
+        h1 {
+            max-width: 100%;
+            margin-bottom: 3rem;
             text-align: right;
             font-size: 2.7rem;
             font-weight: 800;
             color: #ffffff;
         }
-        .abt-img{
-            display:flex;
+
+        .abt-img {
+            display: flex;
             align-items: center;
             justify-content: center;
         }
-        .abt-img div {
-            text-align: center;
-        }
-        .abt-content{
-            margin-bottom:0;
-        }
-        p{
-            
-            margin-bottom:0;
-        }
-        .redirect{
-            
+
+        .redirect {
             color: #b07641;
-            font-weight:bold;
+            font-weight: bold;
             font-style: italic;
-            margin-left:4.5rem ;
+            display: block;
+            margin-top: 2rem;
         }
-        .para{
-            margin-left:4.5rem;
-            width:95%;
+
+        .para {
+            max-width: 1200px;
+            margin: 2rem auto;
             text-indent: 30px;
-            max-width:100%;
         }
-<<<<<<< HEAD
-=======
-        /* FOOTER ADJUSTMENTS */
-        .icon{
-            background-color: #d3b62a !important;
-            border-color:white !important;
-        }
-        .big-img{
-            margin-bottom:2rem;
-            margin-left:5rem;
-        }
-        .butt{
-            background-color:#d3b62a !important;
-            
-        }
->>>>>>> d7527bba5c5cbdb121c882b2cfeb68ee51cfa5cd
     </style>
 </head>
 <body>
     <div class="dec-content">
-        
-    <
         <div class="abt">
             <div class="big-img">
                 <div class="theater-container">
